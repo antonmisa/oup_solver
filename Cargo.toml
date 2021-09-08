@@ -1,0 +1,12 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2018"
+description = "NonLinear solver in rust importing python function"
+authors = ["Saveliev Anton <saveliev.ant@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.pyo3]
+version = "0.14.4"
+features = ["auto-initialize"]
